@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lugrasimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Jost&family=Lugrasimo&display=swap');
+#meu_menu {
+    /* id do menu */
+    text-align: center;
+    /* padding = margem interna */
+    padding-right: 80px;
+    /* borda inferior */
+    border-bottom: solid;
+    /* tamanho de fonte */
+    font-size: 35px;
+    /* alteracao de fonte */
+    font-family: 'Lugrasimo', sans-serif;
+}
+
+/* chamando a classe  mae */
+#meu_menu a {
+    text-decoration: none;
+    color: rgb(41, 4, 251)
+}
+
+#meu_menu a:hover {
+    color: rgb(54, 252, 5);
+    background-color: rgb(249, 0, 216);
+    transition: 0.8s;
+    opacity: 1.0;
+}
+
+/* trabalhando com classe */
+.titulo {
+    text-align: center;
+    background-color: rgb(26, 23, 69);
+    border-style: double;
+    border-color: #ffffff;
+    font-size: 39px;
+    color: #ffffff;
+    border-radius: 80px;
+    border-width: 10px;
+}
+
+/* trabalhando com div fundo */
+#fundo {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 60%;
+}
+
+/* trabalhando com a div principal */
+.master {
+    display: flex;
+    font-family: 'Jost',sans-serif;
+}
+.col_esquerda{
+    margin-right: 65px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.col_direita{
+    margin-right: 10px;
+    text-align: justify;
+}
+.titulo_col{
+    text-align: center;
+}
+
